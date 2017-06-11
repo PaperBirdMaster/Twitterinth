@@ -356,7 +356,7 @@ void run()
 		draw_x(room.room_point_to_screen(plyr.m_position + sf::Vector2f{  .3f, -.3f }, video_mode), sf::Color::Green, *window);
 		draw_x(room.room_point_to_screen(plyr.m_position + sf::Vector2f{ -.3f,  .3f }, video_mode), sf::Color::Blue, *window);
 		draw_x(room.room_point_to_screen(plyr.m_position + sf::Vector2f{  .3f,  .3f }, video_mode), sf::Color::Yellow, *window);
-
+//Comentario absurdo
 		window->display();
 	}
 }

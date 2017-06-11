@@ -1,0 +1,8 @@
+﻿################################################################################
+# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+################################################################################
+
+/proj/Twitterinth/.vs/Twitterinth/v15
+/proj
+/bin
+/tmp
