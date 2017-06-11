@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Twitterinth", "Twitterinth.vcxproj", "{F6149A20-DDCC-4813-8CCF-01EB6C19922E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E0D6FE5A-5FF3-4CD5-90DA-AC5FBC9223B4} = {E0D6FE5A-5FF3-4CD5-90DA-AC5FBC9223B4}
+		{08620571-A6DA-442C-9A20-B5CFCE41CE0A} = {08620571-A6DA-442C-9A20-B5CFCE41CE0A}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "oauthcpp", "..\oauthcpp\oauthcpp.vcxproj", "{E0D6FE5A-5FF3-4CD5-90DA-AC5FBC9223B4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Twitterinth_cavern_room", "..\Twitterinth_cavern_room\Twitterinth_cavern_room.vcxproj", "{08620571-A6DA-442C-9A20-B5CFCE41CE0A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AddOns", "AddOns", "{72366436-8BF7-45EB-AAEE-7A0C2EDC6445}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3rdParty", "3rdParty", "{8704B63B-7707-42F9-9130-DC9723832E30}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6149A20-DDCC-4813-8CCF-01EB6C19922E}.Debug|x64.ActiveCfg = Debug|x64
+		{F6149A20-DDCC-4813-8CCF-01EB6C19922E}.Debug|x64.Build.0 = Debug|x64
+		{F6149A20-DDCC-4813-8CCF-01EB6C19922E}.Debug|x86.ActiveCfg = Debug|Win32
+		{F6149A20-DDCC-4813-8CCF-01EB6C19922E}.Debug|x86.Build.0 = Debug|Win32
+		{F6149A20-DDCC-4813-8CCF-01EB6C19922E}.Release|x64.ActiveCfg = Release|x64
+		{F6149A20-DDCC-4813-8CCF-01EB6C19922E}.Release|x64.Build.0 = Release|x64
+		{F6149A20-DDCC-4813-8CCF-01EB6C19922E}.Release|x86.ActiveCfg = Release|Win32
+		{F6149A20-DDCC-4813-8CCF-01EB6C19922E}.Release|x86.Build.0 = Release|Win32
+		{E0D6FE5A-5FF3-4CD5-90DA-AC5FBC9223B4}.Debug|x64.ActiveCfg = Debug|x64
+		{E0D6FE5A-5FF3-4CD5-90DA-AC5FBC9223B4}.Debug|x64.Build.0 = Debug|x64
+		{E0D6FE5A-5FF3-4CD5-90DA-AC5FBC9223B4}.Debug|x86.ActiveCfg = Debug|Win32
+		{E0D6FE5A-5FF3-4CD5-90DA-AC5FBC9223B4}.Debug|x86.Build.0 = Debug|Win32
+		{E0D6FE5A-5FF3-4CD5-90DA-AC5FBC9223B4}.Release|x64.ActiveCfg = Release|x64
+		{E0D6FE5A-5FF3-4CD5-90DA-AC5FBC9223B4}.Release|x64.Build.0 = Release|x64
+		{E0D6FE5A-5FF3-4CD5-90DA-AC5FBC9223B4}.Release|x86.ActiveCfg = Release|Win32
+		{E0D6FE5A-5FF3-4CD5-90DA-AC5FBC9223B4}.Release|x86.Build.0 = Release|Win32
+		{08620571-A6DA-442C-9A20-B5CFCE41CE0A}.Debug|x64.ActiveCfg = Debug|x64
+		{08620571-A6DA-442C-9A20-B5CFCE41CE0A}.Debug|x64.Build.0 = Debug|x64
+		{08620571-A6DA-442C-9A20-B5CFCE41CE0A}.Debug|x86.ActiveCfg = Debug|Win32
+		{08620571-A6DA-442C-9A20-B5CFCE41CE0A}.Debug|x86.Build.0 = Debug|Win32
+		{08620571-A6DA-442C-9A20-B5CFCE41CE0A}.Release|x64.ActiveCfg = Release|x64
+		{08620571-A6DA-442C-9A20-B5CFCE41CE0A}.Release|x64.Build.0 = Release|x64
+		{08620571-A6DA-442C-9A20-B5CFCE41CE0A}.Release|x86.ActiveCfg = Release|Win32
+		{08620571-A6DA-442C-9A20-B5CFCE41CE0A}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E0D6FE5A-5FF3-4CD5-90DA-AC5FBC9223B4} = {8704B63B-7707-42F9-9130-DC9723832E30}
+		{08620571-A6DA-442C-9A20-B5CFCE41CE0A} = {72366436-8BF7-45EB-AAEE-7A0C2EDC6445}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://enekoolabuenaga.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ..\\oauthcpp\\oauthcpp.vcxproj
+		SccProjectTopLevelParentUniqueName1 = Twitterinth.sln
+		SccProjectName1 = ../oauthcpp
+		SccLocalPath1 = ..\\oauthcpp
+		SccProjectUniqueName2 = Twitterinth.vcxproj
+		SccLocalPath2 = .
+		SccProjectUniqueName3 = ..\\Twitterinth_cavern_room\\Twitterinth_cavern_room.vcxproj
+		SccProjectTopLevelParentUniqueName3 = Twitterinth.sln
+		SccProjectName3 = ../Twitterinth_cavern_room
+		SccLocalPath3 = ..\\Twitterinth_cavern_room
+	EndGlobalSection
+EndGlobal

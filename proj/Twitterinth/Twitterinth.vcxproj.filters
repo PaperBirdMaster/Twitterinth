@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="..\..\src\Twitterinth\Twitter\Tweet.cpp">
+      <Filter>Twitter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Twitterinth\Twitter\User.cpp">
+      <Filter>Twitter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Twitterinth\Twitter\API.cpp">
+      <Filter>Twitter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Twitterinth\Twitter\Media.cpp">
+      <Filter>Twitter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Twitterinth\JSON\JSON.cpp">
+      <Filter>JSON</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Twitterinth\Room\Generator.cpp">
+      <Filter>Room</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Twitterinth\Room\AddOn.cpp">
+      <Filter>Room</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Twitterinth\Room\Room.cpp">
+      <Filter>Room</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Twitterinth\Room\Floorplan.cpp">
+      <Filter>Room</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Twitterinth\URL\DownloadFile.cpp">
+      <Filter>Download File</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Twitterinth\Twitterint_twitter_user.cpp">
+      <Filter>Twitterinth</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Twitterinth\Twitterint_twitter_tweet.cpp">
+      <Filter>Twitterinth</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Twitterinth\ProfilePicturesCache.cpp">
+      <Filter>Twitterinth</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Twitterinth\Card.cpp">
+      <Filter>Twitterinth</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Twitterinth\render.cpp">
+      <Filter>Twitterinth</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Twitter">
+      <UniqueIdentifier>{bc6b2703-10eb-45e1-8898-6a306e4d246d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JSON">
+      <UniqueIdentifier>{c32e4941-17d0-4dd6-baf0-98c67c4f1e5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Room">
+      <UniqueIdentifier>{7c381fe7-64e3-4fb5-a313-b5a4840930d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Twitterinth">
+      <UniqueIdentifier>{c706d504-b69f-47f2-921d-b36a3a9d4898}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Download File">
+      <UniqueIdentifier>{80cc0311-7b47-4c0a-a3fb-77f1604a1272}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\inc\Twitterinth\Twitter\Tweet.hpp">
+      <Filter>Twitter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\Twitterinth\Twitter\User.hpp">
+      <Filter>Twitter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\Twitterinth\Twitter\Types.hpp">
+      <Filter>Twitter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\Twitterinth\Twitter\API.hpp">
+      <Filter>Twitter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\Twitterinth\Twitter\Media.hpp">
+      <Filter>Twitter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\Twitterinth\JSON\JSON.hpp">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\Twitterinth\Twitterinth.hpp">
+      <Filter>Twitterinth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\Twitterinth\Types.hpp">
+      <Filter>Twitterinth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\Twitterinth\Room\AddOn.hpp">
+      <Filter>Room</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\Twitterinth\Room\Room.hpp">
+      <Filter>Room</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\Twitterinth\Twitterinth_Room_AddOn.hpp">
+      <Filter>Room</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\Twitterinth\Room\Generator.hpp">
+      <Filter>Room</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\Twitterinth\Room\Floorplan.hpp">
+      <Filter>Room</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\Twitterinth\URL\DownloadFile.hpp">
+      <Filter>Download File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\Twitterinth\Twitterinth_twitter_user.hpp">
+      <Filter>Twitterinth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Twitterinth\json_keys.hpp">
+      <Filter>Twitterinth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\Twitterinth\Twitterinth_twitter_tweet.hpp">
+      <Filter>Twitterinth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Twitterinth\ProfilePicturesCache.hpp">
+      <Filter>Twitterinth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\Twitterinth\Card.hpp">
+      <Filter>Twitterinth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\Twitterinth\render.hpp">
+      <Filter>Twitterinth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\Twitterinth\as_2D.h">
+      <Filter>Room</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
